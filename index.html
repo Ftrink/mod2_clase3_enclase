@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time</title>
+</head>
+
+<body>
+    <script>
+        let minutero = 6
+        let minutos = 0
+        let segundero = 60
+        let segundos = 0
+
+        while(minutos < minutero){
+            while(segundos < segundero){
+                if(minutos != 1 && segundos != 1)
+                    console.log(minutos + ' minutos ' + segundos + ' segundos' )
+                else if(minutos !=1 && segundos == 1)
+                    console.log(minutos + ' minutos ' + segundos + ' segundo ')
+                else if(minutos ==1 && segundos !=1)
+                    console.log(minutos + ' minuto '+ segundos + ' segundos')
+                    else
+                    console.log(minutos + ' minuto '+ segundos + ' segundo')
+            segundos ++
+            }
+        segundos = 0  
+        minutos ++
+        }
+        
+
+
+
+        /*while(segundos < segundero){
+        if(segundos == 1)
+        console.log(segundos + ' segundo')
+        else
+        console.log(segundos + ' segundos ')
+        segundos ++
+        }
+        segundos = 0;
+
+
+        while(minutos < minutero){
+            if(minutos == 1)
+            console.log(minutos + ' minuto')
+            else
+            console.log(minutos + ' minutos')
+            minutos ++
+            
+        }*/
+        
+        
+        
+    </script>
+
+
+
+
+</body>
+</html>

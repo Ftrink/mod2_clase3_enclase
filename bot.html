@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bot_mesas</title>
+</head>
+<body>
+    
+    <script>
+    // tiene que ingresar mesas x phomp
+    
+    let mes = parceInt = (prompt ('Ingrese las mesas (stock max actual 50)'))
+    let maxmesa = 50; // pedir ?
+    let i = 1
+    let cliente = 1
+        
+        if(mes <= maxmesa)
+            while (cliente <= mes){
+                console.log('¡Bienvenid@ a mi café! Su mesa es la numero '+ i + '\n Su numero de cliente es '+cliente)
+                cliente++
+                i++
+            }
+        else
+            console.log('sin mesas disponibles')
+    
+    
+    </script>
+
+
+
+
+</body>
+</html>
